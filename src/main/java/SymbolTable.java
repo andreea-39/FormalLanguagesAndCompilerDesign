@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.ArrayList;
 
 public class SymbolTable {
@@ -47,8 +49,8 @@ public class SymbolTable {
         if (search(symbol)==false)
             return null;
 
-        return new Pair(hash(symbol), symbolList.get(hash(symbol)).toString());
-//        return new Pair(hash(symbol), symbolList.get(hash(symbol)).indexOf(symbol));
+
+        return new Pair(hash(symbol), symbolList.get(hash(symbol)).indexOf(symbol));
     }
 
     public int getSize(){
