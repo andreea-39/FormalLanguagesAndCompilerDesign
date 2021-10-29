@@ -23,20 +23,20 @@ public class Test {
 
 
         System.out.println("Test getPosition");
-        assert(symbolTable.getPosition("s1").getFirst().toString()=="4");
-        assert(symbolTable.getPosition("s1").getSecond().toString()=="0");
+        assert(symbolTable.getPosition("s1").getFirst().toString().equals("4"));
+        assert(symbolTable.getPosition("s1").getSecond().toString().equals("0"));
 
-        assert(symbolTable.getPosition("s2").getFirst().toString()=="0");
-        assert(symbolTable.getPosition("s2").getSecond().toString()=="0");
+        assert(symbolTable.getPosition("s2").getFirst().toString().equals("0"));
+        assert(symbolTable.getPosition("s2").getSecond().toString().equals("0"));
 
-        assert(symbolTable.getPosition("s3").getFirst().toString()=="1");
-        assert(symbolTable.getPosition("s3").getSecond().toString()=="0");
+        assert(symbolTable.getPosition("s3").getFirst().toString().equals("1"));
+        assert(symbolTable.getPosition("s3").getSecond().toString().equals("0"));
 
-        assert(symbolTable.getPosition("s4").getFirst().toString()=="3");
-        assert(symbolTable.getPosition("s4").getSecond().toString()=="0");
+        assert(symbolTable.getPosition("s4").getFirst().toString().equals("3"));
+        assert(symbolTable.getPosition("s4").getSecond().toString().equals("0"));
 
-        assert(symbolTable.getPosition("s5").getFirst().toString()=="4");
-        assert(symbolTable.getPosition("s5").getSecond().toString()=="0");
+        assert(symbolTable.getPosition("s5").getFirst().toString().equals("4"));
+        assert(symbolTable.getPosition("s5").getSecond().toString().equals("0"));
 
         System.out.println("Finished test getPosition");
 

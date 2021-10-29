@@ -1,0 +1,11 @@
+begin
+integer n;
+read(n);
+boolean prime = true;
+if n<2 || ( n>2 && n%2==0)
+    prime=false;
+for integer index=2; integer<=n; integer++:
+    if n%index==0:
+        prime=false;
+write(prime);
+end

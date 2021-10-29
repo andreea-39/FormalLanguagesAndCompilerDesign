@@ -1,0 +1,32 @@
+{integer, -1}
+{IDENTIFIER, {6, 0}}
+{read, -1}
+{IDENTIFIER, {6, 0}}
+{boolean, -1}
+{IDENTIFIER, {5, 0}}
+{true, -1}
+{if, -1}
+{IDENTIFIER, {6, 0}}
+{CONSTANT, {2, 0}}
+{IDENTIFIER, {6, 0}}
+{CONSTANT, {2, 0}}
+{IDENTIFIER, {6, 0}}
+{CONSTANT, {2, 0}}
+{CONSTANT, {0, 0}}
+{IDENTIFIER, {5, 0}}
+{false, -1}
+{for, -1}
+{integer, -1}
+{IDENTIFIER, {0, 1}}
+{CONSTANT, {2, 0}}
+{integer, -1}
+{IDENTIFIER, {6, 0}}
+{integer, -1}
+{if, -1}
+{IDENTIFIER, {6, 0}}
+{IDENTIFIER, {0, 1}}
+{CONSTANT, {0, 0}}
+{IDENTIFIER, {5, 0}}
+{false, -1}
+{write, -1}
+{IDENTIFIER, {5, 0}}

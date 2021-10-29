@@ -46,14 +46,18 @@ public class SymbolTable {
     }
 
     public Pair getPosition(String symbol){
-        if (search(symbol)==false)
+        if (!search(symbol))
             return null;
 
 
         return new Pair(hash(symbol), symbolList.get(hash(symbol)).indexOf(symbol));
     }
 
-    public int getSize(){
-        return size;
+    @Override
+    public String toString() {
+        return "SymbolTable{" +
+                "symbolList=" + symbolList +
+                ", size=" + size +
+                '}';
     }
 }
